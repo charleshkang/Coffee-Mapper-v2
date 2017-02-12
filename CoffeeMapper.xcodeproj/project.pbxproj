@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42EEFBAC1E5021BA00AAC709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEFBAB1E5021BA00AAC709 /* AppDelegate.swift */; };
+		42EEFBAE1E5021BA00AAC709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEFBAD1E5021BA00AAC709 /* ViewController.swift */; };
+		42EEFBB11E5021BA00AAC709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EEFBAF1E5021BA00AAC709 /* Main.storyboard */; };
+		42EEFBB31E5021BA00AAC709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EEFBB21E5021BA00AAC709 /* Assets.xcassets */; };
+		42EEFBB61E5021BA00AAC709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EEFBB41E5021BA00AAC709 /* LaunchScreen.storyboard */; };
+		42EEFBC11E5021BA00AAC709 /* CoffeeMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEFBC01E5021BA00AAC709 /* CoffeeMapperTests.swift */; };
+		42EEFBCC1E5021BA00AAC709 /* CoffeeMapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEFBCB1E5021BA00AAC709 /* CoffeeMapperUITests.swift */; };
+		4692395F57AE4195D9DE8C7D /* Pods_CoffeeMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E6E1FC5497F77EC3BF47C9 /* Pods_CoffeeMapper.framework */; };
+		7070E92856342D8781271E61 /* Pods_CoffeeMapperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABF6B5D1EA303E35A19194 /* Pods_CoffeeMapperUITests.framework */; };
+		9234480F8AF223F4AEF14955 /* Pods_CoffeeMapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADA5CD449F95988299DCED4 /* Pods_CoffeeMapperTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42EEFBBD1E5021BA00AAC709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EEFBA01E5021BA00AAC709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EEFBA71E5021BA00AAC709;
+			remoteInfo = CoffeeMapper;
+		};
+		42EEFBC81E5021BA00AAC709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EEFBA01E5021BA00AAC709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EEFBA71E5021BA00AAC709;
+			remoteInfo = CoffeeMapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BD1AF0F742C6552D38A8EDE /* Pods-CoffeeMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeMapper/Pods-CoffeeMapper.release.xcconfig"; sourceTree = "<group>"; };
+		2EEBE24E47791DEBB5EE27D0 /* Pods-CoffeeMapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeMapperTests/Pods-CoffeeMapperTests.release.xcconfig"; sourceTree = "<group>"; };
+		3544F76D6015D7DD654C7A9F /* Pods-CoffeeMapperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMapperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeMapperUITests/Pods-CoffeeMapperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42EEFBA81E5021BA00AAC709 /* CoffeeMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EEFBAB1E5021BA00AAC709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42EEFBAD1E5021BA00AAC709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42EEFBB01E5021BA00AAC709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EEFBB21E5021BA00AAC709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EEFBB51E5021BA00AAC709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42EEFBB71E5021BA00AAC709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EEFBBC1E5021BA00AAC709 /* CoffeeMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EEFBC01E5021BA00AAC709 /* CoffeeMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMapperTests.swift; sourceTree = "<group>"; };
+		42EEFBC21E5021BA00AAC709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EEFBC71E5021BA00AAC709 /* CoffeeMapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeMapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EEFBCB1E5021BA00AAC709 /* CoffeeMapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMapperUITests.swift; sourceTree = "<group>"; };
+		42EEFBCD1E5021BA00AAC709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ADA5CD449F95988299DCED4 /* Pods_CoffeeMapperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeMapperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD370326FDF98425F2A84E3 /* Pods-CoffeeMapperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMapperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeMapperUITests/Pods-CoffeeMapperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93E6E1FC5497F77EC3BF47C9 /* Pods_CoffeeMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23E22B0F225660E5D2E4B25 /* Pods-CoffeeMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeMapper/Pods-CoffeeMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		F1ABF6B5D1EA303E35A19194 /* Pods_CoffeeMapperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeMapperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA78DD29C296C110EDD266EF /* Pods-CoffeeMapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeMapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeMapperTests/Pods-CoffeeMapperTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42EEFBA51E5021BA00AAC709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4692395F57AE4195D9DE8C7D /* Pods_CoffeeMapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EEFBB91E5021BA00AAC709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9234480F8AF223F4AEF14955 /* Pods_CoffeeMapperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EEFBC41E5021BA00AAC709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7070E92856342D8781271E61 /* Pods_CoffeeMapperUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BFFF87527E048502896B43A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93E6E1FC5497F77EC3BF47C9 /* Pods_CoffeeMapper.framework */,
+				5ADA5CD449F95988299DCED4 /* Pods_CoffeeMapperTests.framework */,
+				F1ABF6B5D1EA303E35A19194 /* Pods_CoffeeMapperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B07997E10F30D3D70663A49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B23E22B0F225660E5D2E4B25 /* Pods-CoffeeMapper.debug.xcconfig */,
+				0BD1AF0F742C6552D38A8EDE /* Pods-CoffeeMapper.release.xcconfig */,
+				FA78DD29C296C110EDD266EF /* Pods-CoffeeMapperTests.debug.xcconfig */,
+				2EEBE24E47791DEBB5EE27D0 /* Pods-CoffeeMapperTests.release.xcconfig */,
+				6FD370326FDF98425F2A84E3 /* Pods-CoffeeMapperUITests.debug.xcconfig */,
+				3544F76D6015D7DD654C7A9F /* Pods-CoffeeMapperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42EEFB9F1E5021BA00AAC709 = {
+			isa = PBXGroup;
+			children = (
+				42EEFBAA1E5021BA00AAC709 /* CoffeeMapper */,
+				42EEFBBF1E5021BA00AAC709 /* CoffeeMapperTests */,
+				42EEFBCA1E5021BA00AAC709 /* CoffeeMapperUITests */,
+				42EEFBA91E5021BA00AAC709 /* Products */,
+				2B07997E10F30D3D70663A49 /* Pods */,
+				0BFFF87527E048502896B43A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42EEFBA91E5021BA00AAC709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EEFBA81E5021BA00AAC709 /* CoffeeMapper.app */,
+				42EEFBBC1E5021BA00AAC709 /* CoffeeMapperTests.xctest */,
+				42EEFBC71E5021BA00AAC709 /* CoffeeMapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42EEFBAA1E5021BA00AAC709 /* CoffeeMapper */ = {
+			isa = PBXGroup;
+			children = (
+				42EEFBAB1E5021BA00AAC709 /* AppDelegate.swift */,
+				42EEFBAD1E5021BA00AAC709 /* ViewController.swift */,
+				42EEFBAF1E5021BA00AAC709 /* Main.storyboard */,
+				42EEFBB21E5021BA00AAC709 /* Assets.xcassets */,
+				42EEFBB41E5021BA00AAC709 /* LaunchScreen.storyboard */,
+				42EEFBB71E5021BA00AAC709 /* Info.plist */,
+			);
+			path = CoffeeMapper;
+			sourceTree = "<group>";
+		};
+		42EEFBBF1E5021BA00AAC709 /* CoffeeMapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				42EEFBC01E5021BA00AAC709 /* CoffeeMapperTests.swift */,
+				42EEFBC21E5021BA00AAC709 /* Info.plist */,
+			);
+			path = CoffeeMapperTests;
+			sourceTree = "<group>";
+		};
+		42EEFBCA1E5021BA00AAC709 /* CoffeeMapperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42EEFBCB1E5021BA00AAC709 /* CoffeeMapperUITests.swift */,
+				42EEFBCD1E5021BA00AAC709 /* Info.plist */,
+			);
+			path = CoffeeMapperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42EEFBA71E5021BA00AAC709 /* CoffeeMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EEFBD01E5021BA00AAC709 /* Build configuration list for PBXNativeTarget "CoffeeMapper" */;
+			buildPhases = (
+				A00E00343869C0486A6083C4 /* [CP] Check Pods Manifest.lock */,
+				42EEFBA41E5021BA00AAC709 /* Sources */,
+				42EEFBA51E5021BA00AAC709 /* Frameworks */,
+				42EEFBA61E5021BA00AAC709 /* Resources */,
+				FE8C6979C75D46BB86D2CFFC /* [CP] Embed Pods Frameworks */,
+				0D735E953A10D91AD9406FED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeMapper;
+			productName = CoffeeMapper;
+			productReference = 42EEFBA81E5021BA00AAC709 /* CoffeeMapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42EEFBBB1E5021BA00AAC709 /* CoffeeMapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EEFBD31E5021BA00AAC709 /* Build configuration list for PBXNativeTarget "CoffeeMapperTests" */;
+			buildPhases = (
+				DAEBC057A9A7C435D6117BAB /* [CP] Check Pods Manifest.lock */,
+				42EEFBB81E5021BA00AAC709 /* Sources */,
+				42EEFBB91E5021BA00AAC709 /* Frameworks */,
+				42EEFBBA1E5021BA00AAC709 /* Resources */,
+				A74F5A26CAB14044422331BB /* [CP] Embed Pods Frameworks */,
+				3156BF5BB6076355BBA99FF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EEFBBE1E5021BA00AAC709 /* PBXTargetDependency */,
+			);
+			name = CoffeeMapperTests;
+			productName = CoffeeMapperTests;
+			productReference = 42EEFBBC1E5021BA00AAC709 /* CoffeeMapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42EEFBC61E5021BA00AAC709 /* CoffeeMapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EEFBD61E5021BA00AAC709 /* Build configuration list for PBXNativeTarget "CoffeeMapperUITests" */;
+			buildPhases = (
+				0947219586AA453F2E296B98 /* [CP] Check Pods Manifest.lock */,
+				42EEFBC31E5021BA00AAC709 /* Sources */,
+				42EEFBC41E5021BA00AAC709 /* Frameworks */,
+				42EEFBC51E5021BA00AAC709 /* Resources */,
+				2C1812840C9ECBB3674A80AA /* [CP] Embed Pods Frameworks */,
+				8FDCF74FEAE54965A890A3C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EEFBC91E5021BA00AAC709 /* PBXTargetDependency */,
+			);
+			name = CoffeeMapperUITests;
+			productName = CoffeeMapperUITests;
+			productReference = 42EEFBC71E5021BA00AAC709 /* CoffeeMapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EEFBA01E5021BA00AAC709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Charles Kang";
+				TargetAttributes = {
+					42EEFBA71E5021BA00AAC709 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 735G6X6W9B;
+						ProvisioningStyle = Automatic;
+					};
+					42EEFBBB1E5021BA00AAC709 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 735G6X6W9B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42EEFBA71E5021BA00AAC709;
+					};
+					42EEFBC61E5021BA00AAC709 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 735G6X6W9B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42EEFBA71E5021BA00AAC709;
+					};
+				};
+			};
+			buildConfigurationList = 42EEFBA31E5021BA00AAC709 /* Build configuration list for PBXProject "CoffeeMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42EEFB9F1E5021BA00AAC709;
+			productRefGroup = 42EEFBA91E5021BA00AAC709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42EEFBA71E5021BA00AAC709 /* CoffeeMapper */,
+				42EEFBBB1E5021BA00AAC709 /* CoffeeMapperTests */,
+				42EEFBC61E5021BA00AAC709 /* CoffeeMapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42EEFBA61E5021BA00AAC709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EEFBB61E5021BA00AAC709 /* LaunchScreen.storyboard in Resources */,
+				42EEFBB31E5021BA00AAC709 /* Assets.xcassets in Resources */,
+				42EEFBB11E5021BA00AAC709 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EEFBBA1E5021BA00AAC709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EEFBC51E5021BA00AAC709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0947219586AA453F2E296B98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0D735E953A10D91AD9406FED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeMapper/Pods-CoffeeMapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C1812840C9ECBB3674A80AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeMapperUITests/Pods-CoffeeMapperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3156BF5BB6076355BBA99FF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeMapperTests/Pods-CoffeeMapperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FDCF74FEAE54965A890A3C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeMapperUITests/Pods-CoffeeMapperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A00E00343869C0486A6083C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A74F5A26CAB14044422331BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeMapperTests/Pods-CoffeeMapperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEBC057A9A7C435D6117BAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8C6979C75D46BB86D2CFFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeMapper/Pods-CoffeeMapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42EEFBA41E5021BA00AAC709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EEFBAE1E5021BA00AAC709 /* ViewController.swift in Sources */,
+				42EEFBAC1E5021BA00AAC709 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EEFBB81E5021BA00AAC709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EEFBC11E5021BA00AAC709 /* CoffeeMapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EEFBC31E5021BA00AAC709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EEFBCC1E5021BA00AAC709 /* CoffeeMapperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42EEFBBE1E5021BA00AAC709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EEFBA71E5021BA00AAC709 /* CoffeeMapper */;
+			targetProxy = 42EEFBBD1E5021BA00AAC709 /* PBXContainerItemProxy */;
+		};
+		42EEFBC91E5021BA00AAC709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EEFBA71E5021BA00AAC709 /* CoffeeMapper */;
+			targetProxy = 42EEFBC81E5021BA00AAC709 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42EEFBAF1E5021BA00AAC709 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EEFBB01E5021BA00AAC709 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42EEFBB41E5021BA00AAC709 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EEFBB51E5021BA00AAC709 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42EEFBCE1E5021BA00AAC709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42EEFBCF1E5021BA00AAC709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42EEFBD11E5021BA00AAC709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23E22B0F225660E5D2E4B25 /* Pods-CoffeeMapper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 735G6X6W9B;
+				INFOPLIST_FILE = CoffeeMapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.CoffeeMapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42EEFBD21E5021BA00AAC709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD1AF0F742C6552D38A8EDE /* Pods-CoffeeMapper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 735G6X6W9B;
+				INFOPLIST_FILE = CoffeeMapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.CoffeeMapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		42EEFBD41E5021BA00AAC709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA78DD29C296C110EDD266EF /* Pods-CoffeeMapperTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 735G6X6W9B;
+				INFOPLIST_FILE = CoffeeMapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.CoffeeMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeMapper.app/CoffeeMapper";
+			};
+			name = Debug;
+		};
+		42EEFBD51E5021BA00AAC709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EEBE24E47791DEBB5EE27D0 /* Pods-CoffeeMapperTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 735G6X6W9B;
+				INFOPLIST_FILE = CoffeeMapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.CoffeeMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeMapper.app/CoffeeMapper";
+			};
+			name = Release;
+		};
+		42EEFBD71E5021BA00AAC709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD370326FDF98425F2A84E3 /* Pods-CoffeeMapperUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 735G6X6W9B;
+				INFOPLIST_FILE = CoffeeMapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.CoffeeMapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CoffeeMapper;
+			};
+			name = Debug;
+		};
+		42EEFBD81E5021BA00AAC709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3544F76D6015D7DD654C7A9F /* Pods-CoffeeMapperUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 735G6X6W9B;
+				INFOPLIST_FILE = CoffeeMapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.CoffeeMapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CoffeeMapper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42EEFBA31E5021BA00AAC709 /* Build configuration list for PBXProject "CoffeeMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EEFBCE1E5021BA00AAC709 /* Debug */,
+				42EEFBCF1E5021BA00AAC709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EEFBD01E5021BA00AAC709 /* Build configuration list for PBXNativeTarget "CoffeeMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EEFBD11E5021BA00AAC709 /* Debug */,
+				42EEFBD21E5021BA00AAC709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42EEFBD31E5021BA00AAC709 /* Build configuration list for PBXNativeTarget "CoffeeMapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EEFBD41E5021BA00AAC709 /* Debug */,
+				42EEFBD51E5021BA00AAC709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42EEFBD61E5021BA00AAC709 /* Build configuration list for PBXNativeTarget "CoffeeMapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EEFBD71E5021BA00AAC709 /* Debug */,
+				42EEFBD81E5021BA00AAC709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42EEFBA01E5021BA00AAC709 /* Project object */;
+}
