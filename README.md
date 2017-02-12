@@ -19,6 +19,8 @@ I wanted to make an app similar to <a href="https://untappd.com">Untappd</a>, bu
 
 # Later Features
 <ul>
+  <li>Profile creation to tell others what you're drinking, and what your current favorite shops are</li>
+  <li>Implement Lottie https://github.com/airbnb/lottie-ios</li>
   <li>Keep track of the shops you visit</li>
   <li>Post photos of what you're drinking</li>
   <li>Connect with friends</li>
